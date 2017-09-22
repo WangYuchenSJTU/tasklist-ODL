@@ -31,9 +31,9 @@ mvn clean install -DskipTests
 
 ## Implementation
 - add the RPC Registry reference to `impl-blueprint.xml` in `tasklist/impl/src/main/resources/org/opendaylight/blueprint`: [impl-blueprint.xml](impl-blueprint.xml)
--  modify the code in the file: `tasklist/impl/src/main/java/org/opendaylight/tasklist/impl/TasklistProvider.java`:[TasklistProvider.java](TasklistProvider.java)
+- modify the code in the `tasklist/impl/src/main/java/org/opendaylight/tasklist/impl/TasklistProvider.java` file as [TasklistProvider.java](TasklistProvider.java)
 - create the `tasklist/impl/src/main/java/org/opendaylight/tasklist/impl/TaskGeneImpl.java` file: [TaskGeneImpl.java](TaskGeneImpl.java)
--create the: `tasklist/impl/src/main/java/org/opendaylight/tasklist/impl/LoggingFuturesCallBack.java` file as [LoggingFuturesCallBack.java](LoggingFuturesCallBack.java) 
+- create the `tasklist/impl/src/main/java/org/opendaylight/tasklist/impl/LoggingFuturesCallBack.java` file as [LoggingFuturesCallBack.java](LoggingFuturesCallBack.java) 
 - create the `tasklist/impl/src/main/java/org/opendaylight/tasklist/impl/TaskRegistryDataChangeListenerFuture.java` file as [TaskRegistryDataChangeListenerFuture.java](TaskRegistryDataChangeListenerFuture.java)
 
 ## Compilation
