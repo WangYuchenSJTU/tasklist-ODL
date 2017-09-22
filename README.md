@@ -25,7 +25,7 @@ Define value for property 'classPrefix':  tasklist: :
 - model *Tasklist RPC* in the file `task/api/src/main/yang/tasklist.yang`: [tasklist.yang](tasklist.yang)
 - compile the YANG model
 ```bash
-cd task/api
+cd tasklist/api
 mvn clean install -DskipTests
 ```
 
@@ -39,7 +39,7 @@ mvn clean install -DskipTests
 ## Compilation
 - compile the project 
 ```bash
-cd task/
+cd tasklist/
 mvn clean install -DskipTests
 ```
 
