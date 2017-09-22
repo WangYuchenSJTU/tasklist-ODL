@@ -1,4 +1,4 @@
-#Task List App (ODL)
+# Task List App (ODL)
 A simple ODL example that produce RESTful task list service on MD-SAL. It consists of four main features: rpc, data container, date change listener and a JSP web UI consuming the service.
 
 ## Project Creation
@@ -43,7 +43,7 @@ cd task/
 mvn clean install -DskipTests
 ```
 
-## test
+## Test
 - launch karaf `task/karaf/target/assembly/bin/karaf`
 - install feature: `feature:install odl-dluxapps-applications`
 - access the page: `http://localhost:8181/index.html` (login: admin, pwd: admin)
