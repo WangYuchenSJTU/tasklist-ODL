@@ -20,6 +20,7 @@ Define value for property 'groupId': : org.opendaylight.tasklist
 Define value for property 'artifactId': : tasklist
 Define value for property 'package':  org.opendaylight.tasklist: : 
 Define value for property 'classPrefix':  tasklist: : 
+```
 
 ## YANG Modeling
 - model *Tasklist RPC* in the file `task/api/src/main/yang/tasklist.yang`: [tasklist.yang](tasklist.yang)
