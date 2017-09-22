@@ -1,0 +1,40 @@
+module tasklist {
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:tasklist";
+    prefix "tasklist";
+
+    revision "2015-01-05" {
+        description "Initial revision of tasklist model";
+    }
+
+    rpc task-gene {
+        input {
+            leaf name {
+                type string;
+            }
+            leaf deadline {
+                type string;
+            }
+        }
+        output {
+            leaf startpoint {
+                type string;
+            }
+        }
+    }
+
+    container task-registry {
+    list task-registry-entry {
+        key "name";
+        leaf name {
+            type string;
+        }
+        leaf deadline {
+            type string;
+        }
+        leaf startpoint {
+            type string;
+        }
+    }
+}
+}

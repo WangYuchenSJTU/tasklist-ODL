@@ -1,0 +1,119 @@
+/*
+  darkblue  : #176785;
+  bluegreen : #499989;
+  lightgreen: #BED194;
+  milk      : #FFD7AC;
+  red       : #FF534E;
+*/
+
+html {
+}
+
+body {
+  color: #176785;
+  font-family: 'Quicksand', sans-serif;
+}
+.border,
+input, textarea { 
+    padding: 9px; 
+    border: solid 1px #E5E5E5; 
+    outline: 0; 
+    font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+    width: 200px; 
+    background: #FFFFFF url('bg_form.png') left top repeat-x; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    } 
+   
+textarea { 
+    width: 400px; 
+    max-width: 400px; 
+    height: 150px; 
+    line-height: 150%; 
+    } 
+   
+input:hover, textarea:hover, 
+input:focus, textarea:focus { 
+    border-color: #C9C9C9; 
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px; 
+    } 
+   
+.form label { 
+    margin-left: 10px; 
+    color: #999999; 
+    } 
+   
+.submit input { 
+    width: auto; 
+    padding: 9px 15px; 
+    background: #176785; 
+    border: 0; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    }
+    
+a {
+  color: #FF534E;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+a:hover {
+  border-bottom-color:#FFD7AC;
+}
+
+.control {
+  display: inline-block;
+  width: 10%;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid #FFD7AC;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.container {
+  width: 960px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+article {
+  position: relative;
+  padding: 0 5em;
+  border: 1px solid #BED194;
+  margin-bottom: 3em;
+  border-radius: 5px;
+}
+
+article:hover {
+  border-color: #499989;
+}
+
+article:first-child {
+  margin-top: 3em;
+}
+
+article .title {
+  position: absolute;
+  left: 10px;
+  top: -32px;
+  padding-left: 5px; padding-right: 5px;
+  background-color: #fff;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 90%;
+  }
+
+  article {
+    padding: 0 2em;
+  }
+}
