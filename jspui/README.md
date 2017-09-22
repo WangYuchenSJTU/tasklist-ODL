@@ -1,5 +1,6 @@
 # Task List Web UI
 A JSP web UI consuming the RESTful ODL service.
+Note: In order to get full funtionality, pleas use browsers that support HTML5 (ex: Chrome)
 
 ## Build
 ```bash
@@ -17,4 +18,5 @@ install -s mvn:net.yuchen/jspui/1.0-SNAPSHOT/war
 
 ## Test
 Run and test the web UI at: http://localhost:8181/jsp/index.jsp
-
+The UI should be look like this:
+![Image](https://github.com/WangYuchenSJTU/tasklist-ODL/blob/master/jspui/uisample.png)
