@@ -1,7 +1,7 @@
 # Task List Web UI
-A JSP web UI consuming the RESTful ODL service.
-Note: In order to get full funtionality, pleas use browsers that support HTML5 (ex: Chrome)
-The UI should be look like this with HTML5 supported:
+- A JSP web UI consuming the RESTful ODL service.
+- Note: In order to get full funtionality, pleas use browsers that support HTML5 (ex: Chrome)
+- The UI should be look like this with HTML5 supported:
 ![Image](https://github.com/WangYuchenSJTU/tasklist-ODL/blob/master/jspui/uisample.png)
 
 ## Build
