@@ -33,7 +33,7 @@ public class TasklistProvider {
      */
     public void init() {
         serviceRegistration = rpcProviderRegistry.addRpcImplementation(TasklistService.class, new TaskGeneImpl(dataBroker));
-        new GreetingRegistryDataChangeListenerFuture(dataBroker, "Ruan");
+        new TaskRegistryDataChangeListenerFuture(dataBroker, "Yuchen");
         LOG.info("Yuchen TasklistProvider Session Initiated");
     }
 
