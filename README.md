@@ -45,7 +45,7 @@ mvn clean install -DskipTests
 ```
 
 ## Test
-- launch karaf `task/karaf/target/assembly/bin/karaf`
+- launch karaf `taskllist/karaf/target/assembly/bin/karaf`
 - install feature: `feature:install odl-dluxapps-applications`
 - access the page: `http://localhost:8181/index.html` (login: admin, pwd: admin)
 - use `YangGUI/tasklist/operations/task-gene` to add new entry
